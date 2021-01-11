@@ -14,6 +14,14 @@ function display3(val)
          { 
              document.getElementById("result3").value=document.getElementById("result3").value+val 
          } 
+         function display4(val) 
+         { 
+             document.getElementById("result4").value=document.getElementById("result4").value+val 
+         } 
+          function display5(val) 
+         { 
+             document.getElementById("result5").value=document.getElementById("result5").value+val 
+         } 
         function del()
         {
 var string=document.getElementById("result").value 
@@ -51,7 +59,26 @@ for(var i=0;i<string.length-1;i++)
 res=res+string[i]
 }
 document.getElementById("result3").value= res 
+}function deleet()
+ {
+var string=document.getElementById("result4").value 
+var res=""
+for(var i=0;i<string.length-1;i++)
+{
+res=res+string[i]
 }
+document.getElementById("result4").value= res 
+}function deeleet()
+ {
+var string=document.getElementById("result5").value 
+var res=""
+for(var i=0;i<string.length-1;i++)
+{
+res=res+string[i]
+}
+document.getElementById("result5").value= res 
+}
+
  
 function calcul()
 {
@@ -76,6 +103,14 @@ document.getElementById("result2").value = ""
 function clr3() 
 { 
 document.getElementById("result3").value = "" 
+}  
+function clr4() 
+{ 
+document.getElementById("result4").value = "" 
+} 
+function clr5() 
+{ 
+document.getElementById("result5").value = "" 
 }  
 function powTwo(){
     var res=document.getElementById("result").value
@@ -131,7 +166,14 @@ for(var i=1;i<=r;i++){;
     res=res*i}
 document.getElementById("result").value=res
 }
-
+function kgToLb()
+{
+var res=document.getElementById("result4").value 
+var res1=0
+res1=res*2.2
+document.getElementById("result4").value = res1
+window.alert (res1+" Lb")
+}
 function prime()
 {
 var res=document.getElementById("result").value
@@ -185,9 +227,32 @@ function log10()
         var res =document.getElementById("result").value
 res=Math.log10(res)
 document.getElementById("result").value=res
+}function sqrt()
+{
+        var res =document.getElementById("result").value
+res=Math.sqrt(res)
+document.getElementById("result").value=res
+}function abs()
+{
+        var res =document.getElementById("result").value
+res=Math.abs(res)
+document.getElementById("result").value=res
+}function litreToGallon()
+{
+var res=document.getElementById("result5").value 
+var res1=0
+res1=res*1.60934
+document.getElementById("result5").value = res1
+window.alert (res1+" Gallon")
 }
 
 
 
+function pow(){
+  var num1=document.getElementById("result").value
+  document.getElementById("result").value=""
+  window.alert("write your base ")
+  var num2=document.getElementById("result").value
 
+}
 

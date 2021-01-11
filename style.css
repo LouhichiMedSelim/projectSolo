@@ -42,6 +42,7 @@ margin: 4px 2px;
   margin: 0;
   opacity: 1;
   transition: 0s
+
 }
 .button1 {
   padding: 15px 25px;
@@ -70,7 +71,7 @@ margin: 4px 2px;
 .button2{
   position: relative;
   background-color: #cc0066;
-  border: none;
+  border: black;
   font-size: 26px;
   color: black;
   padding: 20px;
@@ -124,4 +125,7 @@ font-weight:bold;
   background-color: #ff573e;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+.ss{
+  text-align:center;
 }
