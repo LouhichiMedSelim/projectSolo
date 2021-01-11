@@ -1,0 +1,130 @@
+<html> 
+   <head> 
+
+      <title img src=''>Louhichi's Project</title>
+     
+      <link rel="stylesheet"  href="style.css">
+      
+<link rel="icon" href="Louhichi.jpg" type="image/icon type"> 
+<script src="main.js"></script>
+</head> 
+<body style="background-color:#4CAF50;"> 
+
+
+
+
+ <div id="message" style="font-size:72pt " >Hello!Welcome to Selim's page</div>
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+               
+ <script>
+       
+        
+       
+        $( document ).ready(function(){
+            $('#message').fadeIn('slow', function(){
+               $('#message').delay(4000).fadeOut(); 
+            });
+        });
+</script>
+            <div class = title >Louhichi's Calculator</div> 
+            <input type="text  " size="50" style="font-size:30pt"    id="result"/>
+    <table>      <tr><th> <button class="button1" onclick="  clr()   " >C</button></th>
+           <th> <button class="button1" onclick="  calcul ()   ">=</button></th>
+              <th><button class="button1" onclick="  del()  " >del</button> <br> </th>  
+            <th><button class="button1" onclick="  powTwo()  " >P²</button> </th>
+            <th><button class="button1" onclick="  powThree()  " >P3</button>    </th>
+            <th><button class="button1" onclick="  exponent()  " >exp</button></th>
+               <th> <button class="button1" onclick="  logarithme()  " >log</button> </th>
+                 <th><button class="button1" onclick="  fact()  " >fact</button></th>   
+           <th> <button class="button1" onclick="  prime() ">prime</button></th>   
+  <th><button class="button1" onclick="  ceil()  " >ceil</button> </th>
+  
+     <th><button class="button1" onclick="  tanh()  " >tanh</button></th>
+ <th><button class="button1" onclick="  sinh()  " >sinh</button></th>
+  <th><button class="button1" onclick="  PI()  " >PI</button></th>
+   <th><button class="button1" onclick="  log10()  " >log10</button>    </th>
+     <th><button class="button1" onclick="  display ('%')   " >%</button></th>
+
+         <th>   <button class="button1" onclick="  display ('<')   " ><</button></th>
+            <th><button class="button1" onclick="  display ('>')   " >></button></th><br>
+          <br>
+<th> <button class="button3" onclick="  display ('/')   " >/</button></th>
+    <th>               <button class="button3" onclick="  display ('*')   " >*</button></th>
+        <th>                  <button class="button3" onclick="  display ('-')   " >-</button></th>
+            <th>                  <button class="button3" onclick="  display ('+')   " >+</button></th><br>
+          <th>   <button class="button1" onclick="  display ('1')   " >1</button>    </th>
+             <th><button class="button1" onclick="  display ('1')   " >1</button>    </th>
+             <th><button class="button1" onclick="  display ('1')   " >1</button>    </th>
+             <th><button class="button1" onclick="  display ('2')   " >2</button></th>
+             <th><button class="button1" onclick="  display ('3')   " >3</button></th>
+            
+             <th><button class="button1" onclick="  display ('4')   " >4</button></th>
+             <th><button class="button1" onclick="  display ('5')   " >5</button></th>
+             <th><button class="button1" onclick="  display ('6')   " >6</button></th>
+        
+             <th><button class="button1" onclick="  display ('7')   " >7</button></th>
+             <th><button class="button1" onclick="  display ('8')   " >8</button></th>
+             <th><button class="button1" onclick="  display ('9')   " >9</button></th>
+     
+             <th><button class="button1" onclick="  display ('.')   " >.</button></th>
+            <th> <button class="button1" onclick="  display ('0')   " >0</button></th></tr></table> 
+       
+
+           
+
+            <div class = title >Louhichi's Converter Fahrenheit to C°</div>
+            <input type="text  " size="50" style="font-size:36pt"    id="result1"/>
+            <button class="button1" onclick="  clr1()   " style="font-size: 36pt">C</button> 
+            <button class="button1" onclick=" fahrenheitToCelsius()   " style="font-size: 36pt">=</button><br>  
+            <button class="button" onclick="  display1 ('1')   " style="font-size: 36pt">1</button>    
+            <button class="button" onclick="  display1 ('2')   " style="font-size: 36pt">2</button>
+            <button class="button" onclick="  display1('3')   " style="font-size: 36pt">3</button><br>
+            <button class="button" onclick="  display1 ('4')   " style="font-size: 36pt">4</button>
+            <button class="button" onclick="  display1 ('5')   " style="font-size: 36pt">5</button>
+            <button class="button" onclick="  display1 ('6')   " style="font-size: 36pt">6</button><br>
+            <button class="button" onclick="  display1 ('7')   " style="font-size: 36pt">7</button>
+            <button class="button" onclick="  display1 ('8')   " style="font-size: 36pt">8</button>
+            <button class="button" onclick="  display1 ('9')   " style="font-size: 36pt">9</button><br>
+            <button class="button" onclick="  display1 ('.')   " style="font-size: 36pt">.</button>
+            <button class="button" onclick="  display1 ('0')   " style="font-size: 36pt">0</button> 
+            <button class="button" onclick="  display1 ('-')   " style="font-size: 36pt">-</button>
+              <button class="button" onclick="  ear()  " style="font-size: 36pt">del</button> 
+            
+            <div class = title >Louhichi's Converter Metre to Feet</div>
+            <input type="text  " size="50" style="font-size:36pt"    id="result2"/>
+            <button class="button1" onclick="  clr2()   " style="font-size: 36pt">C</button> 
+            <button class="button1" onclick=" metreToFeet()   " style="font-size: 36pt">=</button><br> 
+            <button class="button" onclick="  display2 ('1')   " style="font-size: 36pt">1</button>    
+            <button class="button" onclick="  display2 ('2')   " style="font-size: 36pt">2</button>
+            <button class="button" onclick="  display2 ('3')   " style="font-size: 36pt">3</button><br>
+            <button class="button" onclick="  display2 ('4')   " style="font-size: 36pt">4</button>
+            <button class="button" onclick="  display2 ('5')   " style="font-size: 36pt">5</button>
+            <button class="button" onclick="  display2 ('6')   " style="font-size: 36pt">6</button><br>
+            <button class="button" onclick="  display2 ('7')   " style="font-size: 36pt">7</button>
+            <button class="button" onclick="  display2 ('8')   " style="font-size: 36pt">8</button>
+            <button class="button" onclick="  display2 ('9')   " style="font-size: 36pt">9</button><br>
+            <button class="button" onclick="  display2 ('.')   " style="font-size: 36pt">.</button>
+            <button class="button" onclick="  display2 ('0')   " style="font-size: 36pt">0</button>
+              <button class="button" onclick="  dele()  " style="font-size: 36pt">del</button> 
+            
+            <div class = title >Louhichi's Converter Mph to Km</div>
+            <input type="text  " size="50" style="font-size:36pt"    id="result3"/>
+            <button class="button1" onclick="  clr3()   " style="font-size: 36pt">C</button> 
+            <button class="button1" onclick=" mphToKm()   " style="font-size: 36pt">=</button><br> 
+            <button class="button" onclick="  display3 ('1')   " style="font-size: 36pt">1</button>    
+            <button class="button" onclick="  display3 ('2')   " style="font-size: 36pt">2</button>
+            <button class="button" onclick="  display3 ('3')   " style="font-size: 36pt">3</button><br>
+            <button class="button" onclick="  display3 ('4')   " style="font-size: 36pt">4</button>
+            <button class="button" onclick="  display3 ('5')   " style="font-size: 36pt">5</button>
+            <button class="button" onclick="  display3 ('6')   " style="font-size: 36pt">6</button><br>
+            <button class="button" onclick="  display3 ('7')   " style="font-size: 36pt">7</button>
+            <button class="button" onclick="  display3 ('8')   " style="font-size: 36pt">8</button>
+            <button class="button" onclick="  display3 ('9')   " style="font-size: 36pt">9</button><br>
+            <button class="button" onclick="  display3 ('.')   " style="font-size: 36pt">.</button>
+            <button class="button" onclick="  display3 ('0')   " style="font-size: 36pt">0</button>
+   
+              <button class="button" onclick="  delet()  " style="font-size: 36pt">del</button> 
+   
+   </body>
+
+</html>    
